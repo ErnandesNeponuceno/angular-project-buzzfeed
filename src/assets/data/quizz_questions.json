@@ -1,0 +1,89 @@
+{
+  "title": "Qual personagem você seria na série Fleabag?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual desses super poderes você escolheria?",
+      "options": [
+        {"id": 1, "name": "Força sobre-humana", "alias": "Boo"},
+        {"id": 2, "name": "Teletransporte", "alias": "Padre"},
+        {"id": 3, "name": "Ler mentes", "alias": "Fleabag"},
+        {"id": 4, "name": "Manipulação temporal", "alias": "Madrasta"},
+        {"id": 5, "name": "Invisibilidade", "alias": "Claire"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Quem você salvaria primeiro em uma situação de perigo?",
+      "options": [
+        {"id": 1, "name": "Animal", "alias": "Boo"},
+        {"id": 2, "name": "Estranho", "alias": "Padre"},
+        {"id": 3, "name": "Familiar", "alias": "Fleabag"},
+        {"id": 4, "name": "Amigo", "alias": "Claire"},
+        {"id": 5, "name": "Ninguém", "alias": "Madrasta"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual a sua maior preocupação em uma situação de crise?",
+      "options": [
+        {"id": 1, "name": "Evitar escândalos", "alias": "Madrasta"},
+        {"id": 2, "name": "Confortar os outros", "alias": "Boo"},
+        {"id": 3, "name": "Preservar a paz", "alias": "Padre"},
+        {"id": 4, "name": "Manter a compostura", "alias": "Claire"},
+        {"id": 5, "name": "Sobreviver", "alias": "Fleabag"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual o seu principal objetivo na vida?",
+      "options": [
+        {"id": 1, "name": "Felicidade pessoal", "alias": "Boo"},
+        {"id": 2, "name": "Servir aos outros", "alias": "Padre"},
+        {"id": 3, "name": "Autodescoberta", "alias": "Fleabag"},
+        {"id": 4, "name": "Sucesso profissional", "alias": "Claire"},
+        {"id": 5, "name": "Estabilidade financeira", "alias": "Madrasta"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Qual o seu maior medo?",
+      "options": [
+        {"id": 1, "name": "Julgamento público", "alias": "Madrasta"},
+        {"id": 2, "name": "Solidão", "alias": "Fleabag"},
+        {"id": 3, "name": "Perder entes queridos", "alias": "Boo"},
+        {"id": 4, "name": "Fracasso", "alias": "Claire"},
+        {"id": 5, "name": "Perda da fé", "alias": "Padre"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual a sua abordagem diante de um problema?",
+      "options": [
+        {"id": 1, "name": "Desabafar com um amigo", "alias": "Boo"},
+        {"id": 2, "name": "Refletir e rezar", "alias": "Padre"},
+        {"id": 3, "name": "Buscar ajuda externa", "alias": "Madrasta"},
+        {"id": 4, "name": "Analisar cuidadosamente", "alias": "Claire"},
+        {"id": 5, "name": "Enfrentar de frente", "alias": "Fleabag"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O que você valoriza mais em um relacionamento?",
+      "options": [
+        {"id": 1, "name": "Empatia", "alias": "Boo"},
+        {"id": 2, "name": "Estabilidade", "alias": "Madrasta"},
+        {"id": 3, "name": "Lealdade", "alias": "Claire"},
+        {"id": 4, "name": "Compreensão", "alias": "Padre"},
+        {"id": 5, "name": "Liberdade", "alias": "Fleabag"}
+      ]
+    }
+  ],
+  "results": {
+    "Fleabag": "Você compartilha muitas características com Fleabag! Cuidado com as suas escolhas.",
+    "Claire": "Você compartilha muitas características com Claire! Mantenha a calma e siga em frente.",
+    "Padre": "Você compartilha muitas características com o Padre! Mantenha a fé e a compaixão.",
+    "Madrasta": "Você compartilha muitas características com a Madrasta! A estabilidade é importante, mas não se esqueça da sua humanidade.",
+    "Boo": "Você compartilha muitas características com Boo! Valorize suas amizades e mantenha o otimismo."
+  }
+}

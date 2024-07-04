@@ -7,18 +7,16 @@
         <h3>{{questionSelected.question}}</h3>
     </div>
     <div *ngIf=!finished class="quizz_options">
-        <button *ngFor="let option of questionSelected.options; let i = index"  (click)="playerChoose(option.alias)" class="btn-option">
-           
+        <button *ngFor="let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)" 
+        class="btn-option"
+        >
             {{option.name}}
         </button>
     </div>
     <div *ngIf=finished class="quizz_results">
         <h3>O seu resultado é: </h3>
         <p>{{answersSelected}}</p>
-        
         <img [src]="fleabagImagePath" alt="">
-        
-       
     </div>
-   
 </div>

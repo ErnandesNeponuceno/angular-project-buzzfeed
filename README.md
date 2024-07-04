@@ -1,27 +1,93 @@
-# AngularProjectBuzzfeed
+## 🏋️‍♂️ Projeto Angular + TypeScript + CSS .
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Desafio de projeto proposto para criação de clone da página do BuzzFeed.<br>
 
-## Development server
+Os temas abordados são:<br>
+- Componentes do Angular.
+- Criação de elementos dinamicamente. 
+- ngFor e ngIf.
+- Método reduce.<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades:
 
-## Code scaffolding
+- Escolha de opções.
+- Exibição do resultado de acordo com as escolhas do usuário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 💻 Tecnologias utilizadas nesse projeto:
 
-## Build
+<div style="display: inline_block">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img alt="TYPESCRIPT" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="ANGULAR" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+</div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estrutura do Projeto:
 
-## Running unit tests
+- **index.html:** Arquivo HTML principal.
+- **styles.css:** Arquivo CSS global.
+- **src/**
+    - **app/**
+        - **components/**
+          - **quizz/**
+              - **quizz.component.css:** Arquivo CSS contendo a estilização do componente.
+              - **quizz.component.html:** Arquivo com a estrutura HTML do componente.
+              - **quizz.component.ts:** Arquivo Typescript responsável pela lógica do componente. 
+    - **assets/**
+        - **data/**
+            - **quizz_questions.json:** Arquivo JSON com os dados das perguntas, respostas e resultados.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Resumo `reduce()`:
 
-## Running end-to-end tests
+O método reduce em TypeScript (assim como em JavaScript) é um método de array que aplica uma função de redução a cada elemento do array (da esquerda para a direita), resultando em um único valor final. Ele é extremamente útil para operações de agregação, como somar valores, concatenar strings, ou transformar um array em um objeto.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A sintaxe básica do reduce é:
 
-## Further help
+`array.reduce(callback, initialValue)`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+callback: Uma função que é executada em cada valor do array, levando quatro argumentos:
+    - accumulator: O valor acumulado retornado na última invocação do callback, ou initialValue, se fornecido.
+    - currentValue: O valor do elemento atual do array.
+    - currentIndex: O índice do elemento atual do array.
+    - array: O array sobre o qual reduce foi chamado.
+initialValue (opcional): Um valor a ser usado como o primeiro argumento para a primeira chamada do callback. Se não fornecido, o primeiro elemento do array será usado e callback começará com o segundo elemento.
+
+**Explicação da Função checkResult:**
+
+Parâmetro answers:
+
+Recebe um array de strings (answers) que contém as respostas selecionadas pelo usuário.
+
+Parâmetros do Callback reduce:
+
+previous: O valor acumulado das iterações anteriores (inicialmente o primeiro elemento do array).
+current: O valor do elemento atual do array.
+i: O índice do elemento atual no array (não é usado neste caso).
+arr: O array original (answers).
+
+Lógica:
+
+Para cada elemento do array, a função reduce compara a frequência do previous com a frequência do current.
+arr.filter(item => item === previous).length: Conta quantas vezes o previous aparece no array.
+arr.filter(item => item === current).length: Conta quantas vezes o current aparece no array.
+Se a frequência do previous for maior, previous é mantido.
+Se a frequência do current for maior ou igual, current substitui previous.
+Resultado Final:
+
+O valor final de reduce é a resposta mais frequente no array answers.
+Esse valor é retornado pela função checkResult.
+
+A função checkResult é acionada por nextStep (em quizz.component.ts) quando chegar ao limite de perguntas.
+
+![code](assets/imgs/code.png)
+
+## 💻 Preview:
+
+- Veja como ficou o projeto acessando: [Link]()
+  
+![Imagem do Projeto](assets/img/tela.png)
+
+## 📌 Créditos:
+- **Curso:** ✨ Criando um Clone do BuzzFeed com Angular:
+[Formação Angular Developer - DIO](https://web.dio.me/track/formacao-angular-developer)
+

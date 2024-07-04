@@ -8,14 +8,14 @@ import quizz_questions from "../../../assets/data/quizz_questions.json";
 })
 export class QuizzComponent implements OnInit {
   title: string = "";
-  questions: any;
-  questionSelected: any;
-  answers: string[] = [];
-  answersSelected: string = "";
-  questionIndex: number = 0;
-  questionMaxIndex: number = 0;
-  finished: boolean = true;
-  fleabagImagePath: string = ""; // Definindo a variável para armazenar o caminho da imagem
+  questions: any; //coleção de questões
+  questionSelected: any; //questão selecionada
+  answers: string[] = []; //armazena as respostas do úsuario no vetor de string que começa vazio
+  answersSelected: string = ""; //recebe a resposta selecionada
+  questionIndex: number = 0; //recebe o index da questão
+  questionMaxIndex: number = 0; //armazena a quantidade maxima de questões
+  finished: boolean = true; //armazena se a pessoa terminou
+  fleabagImagePath: string = ""; // recebe o caminho da imagem
 
   constructor() { }
 

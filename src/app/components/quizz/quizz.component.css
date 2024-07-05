@@ -11,10 +11,12 @@
     margin-top: 1.5rem;
     margin-bottom: 1.25rem;
 }
+
 .quizz_logo{
     margin-bottom: 2rem;
     gap: 2rem;
 }
+
 .quizz_logo > h3{
     text-transform: uppercase;
     font-size: 1rem;
@@ -31,8 +33,8 @@
     width: 100%;
     max-width: 30rem;
     filter: drop-shadow(4px 5px 1px #ecececc0);
-    
 }
+
 .quizz_questions{
     padding: 1rem;
     width: 100%;
@@ -92,7 +94,6 @@
     max-width: 40rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
 }
 
 .quizz_results h3, .quizz_results p{

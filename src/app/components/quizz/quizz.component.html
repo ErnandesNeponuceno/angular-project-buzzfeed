@@ -1,12 +1,12 @@
-<div class="quizz__container">
-    <div class="quizz_logo">
+<div class="quizz__container flex">
+    <div class="quizz_logo flex">
         <img src="assets/imgs/BuzzFeed.svg" alt="">
         <h3>{{title}}</h3>
     </div>
-    <div *ngIf=!finished class="quizz_questions">
+    <div *ngIf=!finished class="quizz_questions flex">
         <h3>{{questionSelected.question}}</h3>
     </div>
-    <div *ngIf=!finished class="quizz_options">
+    <div *ngIf=!finished class="quizz_options flex">
         <button *ngFor="let option of questionSelected.options; let i = index"
         (click)="playerChoose(option.alias)" 
         class="btn-option"
@@ -14,7 +14,7 @@
             {{option.name}}
         </button>
     </div>
-    <div *ngIf=finished class="quizz_results">
+    <div *ngIf=finished class="quizz_results flex">
         <h3>O seu resultado é: </h3>
         <p>{{answersSelected}}</p>
         <img [src]="fleabagImagePath" alt="">

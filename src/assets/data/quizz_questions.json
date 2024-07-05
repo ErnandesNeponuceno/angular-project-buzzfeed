@@ -1,9 +1,9 @@
 {
-  "title": "Qual personagem você seria na série Fleabag?",
+  "title": "Descrubra qual personagem você seria na série Fleabag",
   "questions": [
     {
       "id": 1,
-      "question": "Qual desses super poderes você escolheria?",
+      "question": "1 - Qual desses super poderes você escolheria?",
       "options": [
         {"id": 1, "name": "Força sobre-humana", "alias": "Boo"},
         {"id": 2, "name": "Teletransporte", "alias": "Padre"},
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "question": "Quem você salvaria primeiro em uma situação de perigo?",
+      "question": "2 - Quem você salvaria primeiro em uma situação de perigo?",
       "options": [
         {"id": 1, "name": "Animal", "alias": "Boo"},
         {"id": 2, "name": "Estranho", "alias": "Padre"},
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "question": "Qual a sua maior preocupação em uma situação de crise?",
+      "question": "3 - Qual a sua maior preocupação em uma situação de crise?",
       "options": [
         {"id": 1, "name": "Evitar escândalos", "alias": "Madrasta"},
         {"id": 2, "name": "Confortar os outros", "alias": "Boo"},
@@ -36,7 +36,7 @@
     },
     {
       "id": 4,
-      "question": "Qual o seu principal objetivo na vida?",
+      "question": "4 - Qual o seu principal objetivo na vida?",
       "options": [
         {"id": 1, "name": "Felicidade pessoal", "alias": "Boo"},
         {"id": 2, "name": "Servir aos outros", "alias": "Padre"},
@@ -47,7 +47,7 @@
     },
     {
       "id": 5,
-      "question": "Qual o seu maior medo?",
+      "question": "5 - Qual o seu maior medo?",
       "options": [
         {"id": 1, "name": "Julgamento público", "alias": "Madrasta"},
         {"id": 2, "name": "Solidão", "alias": "Fleabag"},
@@ -58,7 +58,7 @@
     },
     {
       "id": 6,
-      "question": "Qual a sua abordagem diante de um problema?",
+      "question": "6 - Qual a sua abordagem diante de um problema?",
       "options": [
         {"id": 1, "name": "Desabafar com um amigo", "alias": "Boo"},
         {"id": 2, "name": "Refletir e rezar", "alias": "Padre"},
@@ -69,7 +69,7 @@
     },
     {
       "id": 7,
-      "question": "O que você valoriza mais em um relacionamento?",
+      "question": "7 - O que você valoriza mais em um relacionamento?",
       "options": [
         {"id": 1, "name": "Empatia", "alias": "Boo"},
         {"id": 2, "name": "Estabilidade", "alias": "Madrasta"},
@@ -82,8 +82,8 @@
   "results": {
     "Fleabag": "Você se parece com a Fleabag! Cuidado com as suas escolhas. Elas podem ferir alguém que você ama, e principalmente, você.",
     "Claire": "Você se parece com a Claire! Mantenha a calma e siga em frente. Pare de dar importância ao que os outros podem pensar sobre você.",
-    "Padre": "Você compartilha muitas características com o Padre! Mantenha a fé e a compaixão. Mas não esqueça de quem você é. Sua felicidade também importa.",
-    "Madrasta": "Você compartilha muitas características com a Madrasta! A estabilidade é importante, mas não se esqueça da sua humanidade. Nem tudo gira ao seu redor.",
+    "Padre": "Você se parece com o Padre! Mantenha a fé e a compaixão. Mas não esqueça de quem você é. Sua felicidade também importa.",
+    "Madrasta": "Você se parece com a Madrasta! A estabilidade é importante, mas não se esqueça da sua humanidade. Nem tudo gira ao seu redor.",
     "Boo": "Você se parece com a Boo! Valorize suas amizades e mantenha o otimismo. Não se martirize pelos erros dos outros, você é maior que tudo isso."
   }
 }

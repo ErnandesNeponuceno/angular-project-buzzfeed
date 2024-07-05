@@ -3,11 +3,11 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #2B3A8C;
     font-family: "Roboto", sans-serif;
 
 }
 
 body{
-    background-color: #1f1147;
+    background: url('src/assets/imgs/background.jpg') no-repeat center center fixed;
 }

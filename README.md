@@ -86,7 +86,7 @@ A função checkResult é acionada por nextStep (em quizz.component.ts) quando c
 
 ## 💻 Preview:
 
-- Veja como ficou o projeto acessando: [Link]()
+- Veja como ficou o projeto acessando: [Link](https://angular-project-buzzfeed.vercel.app/)
   
 ![Imagem do Projeto](src/assets/imgs/tela.png)
 
